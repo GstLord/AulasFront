@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NewsLetters</title>
+</head>
+
+<body>
+    <header>
+        <h1>Movie ON</h1>
+        <p>O melhor do cinema, quando e onde você quiser!</p>
+        <p>Descubra um mundo de filmes e séries para todos os gostos. Assista online, em qualquer dispositivo, com</p>
+        <p>qualidade e praticidade. Dos grandes clássicos aos lançamentos imperdíveis, o entretenimento perfeito está a</p>
+        <p>apenas um clique de distância.</p>
+    </header>
+    
+    <main>
+        <article>
+            <h2>Plano Basic</h2>
+            <p>Ideal para quem quer curtir filmes e séries sem complicação.</p>
+            <p>Tenha acesso ao nosso catálogo com qualidade padrão, assista em 1 dispositivo por vez e aproveite um</p>
+            <p>entretenimento completo a um preço acessível. Perfeito para uso individual.</p>
+        </article>
+        
+        <article>
+            <h2>Plano Premium</h2>
+            <p>Para quem quer mais conforto e qualidade.</p>
+            <p>Assista a todo o catálogo em alta definição (HD/Full HD), utilize até 2 dispositivos simultaneamente e tenha</p>
+            <p>uma experiência sem anúncios. Ideal para dividir com alguém ou aproveitar em mais de uma tela.</p>
+        </article>
+
+        <article>
+            <h2>Plano Deluxe</h2>
+            <p>A experiência máxima do streaming.</p>
+            <p>Tenha acesso ilimitado ao catálogo em 4K Ultra HD, utilize até 4 dispositivos ao mesmo tempo, aproveite</p>
+            <p>lançamentos antecipados, conteúdos exclusivos e recursos especiais. Perfeito para famílias ou para quem</p>
+            <p>quer o melhor do cinema em casa.</p>
+        </article>
+    </main>
+
+    <fieldset>
+        <legend>Insira os dados para cadastro: </legend>
+    <form action="processa_formulario.php" method="get">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="email">E-mail: </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="assunto">Assunto: </label>
+        <select name="assunto" id="assunto">
+            <option value="Delux">Delux</option>
+            <option value="Plus">Plus</option>
+            <option value="basic">Basic</option>
+            
+        <button type="submit">Enviar</button>
+        </select>
+    </form>
+    </fieldset>
+
+    <footer>
+        <p>&copy;   2025 Gustavo Cesar- Todos os direitos reservados</p>
+        <p>Conecte-se comigo:</p>
+        <a href="https://www.linkedin.com/in/gustavo-cesar-18a006263/">Linkedin</a>
+        <a href="https://github.com/GstLord">GitHub</a>
+    </footer>
+</body>
+</html>
