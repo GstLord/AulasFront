@@ -2,8 +2,7 @@
 Comits de aulas praticas do curso JAVA FULL STACK da EBAC
 Conteúdos abordados:
 - HTML5:
-  -Introdução e Sintáxe
 -CSS
-  -Seletores
-  -Propriedades
-  -Layout  
+
+Projetos: 
+-Projeto BikeCollection
