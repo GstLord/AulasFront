@@ -1,0 +1,34 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+body{
+    background:linear-gradient(120deg,#1f372d,#1f3730) ; 
+  
+ }
+
+ #title{
+    
+    border: 8px solid white;
+ }
+
+ #topo h1{
+
+    padding: 30px;
+    border: 8px solid #1F2937;
+ }
+ #topo p{
+    padding: 30px;
+    border-bottom: 8px solid #1F2937;
+
+ }
+
+ #topo{
+    text-align: center;
+    padding: 20px;
+    
+ }
+
