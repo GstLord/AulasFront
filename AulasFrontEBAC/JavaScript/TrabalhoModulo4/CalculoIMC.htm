@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <script src="calculadora.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Calculo de IMC</h1>
+
+        <div class="tabela">
+            <label for="altura">Altura</label>
+            <input type="number" id="altura">
+
+            <label for="peso">Peso</label>
+            <input type="number" id="peso">
+            
+            <p id="resultado"></p>
+
+            <button onclick="calcularIMC()">Calcular</button>
+            
+
+        </div>
+
+    </div>
+
+    <div class="classifi">
+        <p>Menor que 18,5: Abaixo do peso (Magreza)</p>
+        <p>18,5 a 24,9: Peso Normal (Eutrófico)</p>
+        <p>25,0 a 29,9: Sobrepeso (Pré-obesidade)</p>
+        <p>30,0 a 34,9: Obesidade Grau I</p>
+        <p>35,0 a 39,9: Obesidade Grau II (Severa)</p>
+        <p>Maior ou igual a 40: Obesidade Grau III (Mórbida ou Grave)</p>
+    </div>
+
+
+    <style>
+        *{
+            padding: 0;
+            margin: 0%;
+        }
+
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+        }
+
+
+        .container{ 
+            margin-left: 70px;
+           align-items: center;
+        }
+
+        .tabela{
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            background-color: aquamarine;
+        }
+        
+        input {
+            width: 100%;    
+            max-width: 300px;
+            padding: 10px;
+            
+        }
+
+        button{
+
+            padding: 15px;
+
+        }
+
+        .classifi{
+            background-color: aquamarine;
+            margin-left: 150px;
+            flex-direction: column;
+        }
+
+    </style>
+    
+    
+
+</body>
+</html>

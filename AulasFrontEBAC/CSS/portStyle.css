@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.container-nav{
+    background-color: blue;
+    display: flex;
+}
+
+.nav-menu{
+    display: flex;
+    background-color: black;
+    list-style: none;
+    align-items: end;
+}
