@@ -8,14 +8,14 @@ const produtos ={
 
 let carrinho =[];
 
-const audio = new Audio("bip.mp3")
+const audio = new Audio("bip.mp3");
 
 window.onload = () => {
     document.getElementById("cod").focus();
 }
 
 function addProduto(){
-    const codHtml = documento.getElementById("cod");
+    const codHtml = document.getElementById("cod");
     const qtdHtml = document.getElementById("qtd");
 
     const valorCod = codHtml.value;
@@ -32,16 +32,16 @@ function addProduto(){
         nome: infoProduto.nome,
         preco: infoProduto.preco,
         quantidade: valorQtd,
-        subtot: infoProduto.preco * qtdHtml
+        subtot: infoProduto.preco * valorQtd
     };
 
     carrinho.push(item);
     audio.currentTime = 0;
-    audio.play;
+    audio.play();
 
     atualizarTela();
 
     qtdHtml.value = 1;
     codHtml.value = "";
-}
+};
 
